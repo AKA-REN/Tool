@@ -1,6 +1,3 @@
---!nolint
---!nocheck
-
 --// Services
 local Players = game:GetService("Players")
 local TeleportService = game:GetService("TeleportService")
@@ -15,20 +12,20 @@ end
 local ReGui = loadstring(game:HttpGet("https://api.lithium.wtf/misc/regui"))()
 -- Theme
 
-ReGui:DefineTheme("Pink Theme", {
-	Text = Color3.fromRGB(200, 180, 200),
-	WindowBg = Color3.fromRGB(35, 30, 35),
-	TitleBarBg = Color3.fromRGB(35, 30, 35),
-	TitleBarBgActive = Color3.fromRGB(50, 45, 50),
-	Border = Color3.fromRGB(50, 45, 50),
-	ResizeGrab = Color3.fromRGB(50, 45, 50),
+ReGui:DefineTheme("Dark Theme", {
+	Text = Color3.fromRGB(220, 220, 220),
+	WindowBg = Color3.fromRGB(25, 25, 25),
+	TitleBarBg = Color3.fromRGB(20, 20, 20),
+	TitleBarBgActive = Color3.fromRGB(35, 35, 35),
+	Border = Color3.fromRGB(45, 45, 45),
+	ResizeGrab = Color3.fromRGB(45, 45, 45),
 })
 
 -- Window
 
 local TabsWindow = ReGui:TabsWindow({
-	Title = "Exclusive Tool",
-	Theme = "Pink Theme",
+	Title = "Secret Lab X",
+	Theme = "Dark Theme",
 	Size = UDim2.fromOffset(500, 260),
 })
 
@@ -44,7 +41,7 @@ Credit:Label({
 	Text = "MEDAL Decompiler : https://github.com/TrapstarKS",
 })
 Credit:Label({
-	Text = "Dex : https://github.com/EX-REN",
+	Text = "Dex : https://github.com/AKA-REN",
 })
 Credit:Label({
 	Text = "Synsaveinstance : https://github.com/luau",
@@ -95,7 +92,7 @@ Decompiler:Radiobox({
 Decompiler:Button({
 	Text = "DexPlusPlus",
 	Callback = function()
-		loadstring(game:HttpGetAsync("https://hub.xrzv.shop/DexPlusPlus.lua"))()
+		loadstring(game:HttpGetAsync("https://github.com/AKA-REN/Tool/blob/main/Dex.lua?raw=true"))()
 	end,
 })
 
