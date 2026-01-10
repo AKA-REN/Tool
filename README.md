@@ -6,7 +6,7 @@ getgenv().HideUpvalues = true
 getgenv().HideFunctionsNames = false
 getgenv().HideFunctionsLine = true
 
-loadstring(game:HttpGetAsync('https://secretlabx.online/Ex-Tools.lua'))()
+loadstring(game:HttpGetAsync('https://secretlabx.online/Tools.lua'))()
 ```
 <br/>
 
