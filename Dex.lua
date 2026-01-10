@@ -1,9 +1,10 @@
 --[[
 	Dex++
-	Version 2.2
-	
+	Version 2.3
+	 
 	Developed by Chillz
-	
+	FixBug By https://github.com/AKA-REN/
+
 	Dex++ is a revival of Moon's Dex, made to fulfill Moon's Dex prophecy.
 ]]
 

@@ -92,7 +92,7 @@ Decompiler:Radiobox({
 Decompiler:Button({
 	Text = "DexPlusPlus",
 	Callback = function()
-		loadstring(game:HttpGetAsync("https://github.com/AKA-REN/Tool/blob/main/Dex.lua?raw=true"))()
+		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/AKA-REN/Tool/refs/heads/main/Dex.lua"))()
 	end,
 })
 
